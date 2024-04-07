@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>share your fav equation</title>
+    <link rel="stylesheet" href="share_your_fav_equations.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <h2>fill in the information regarding your favourite equation , to share it with all of us :)</h2>
+    <form id="cardForm">
+        <label for="imgSrc">Image Source:</label>
+        <input type="text" id="imgSrc" name="imgSrc" required><br>
+    
+        <label for="imgAlt">Image Alt Text:</label>
+        <input type="text" id="imgAlt" name="imgAlt" required><br>
+    
+        <label for="imgWidth">Image Width:</label>
+        <input type="text" id="imgWidth" name="imgWidth" required><br>
+    
+        <label for="imgHeight">Image Height:</label>
+        <input type="text" id="imgHeight" name="imgHeight" required><br>
+    
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea><br>
+    
+        <button type="submit">Create Card</button>
+    </form>
+    <div id="cardsContainer"></div>    
+</body>
+</html>

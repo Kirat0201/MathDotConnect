@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-left : 10px;
+    padding-right: 10px;
+    height: 100vh;
+    line-height: 3rem;
+}
+
+header {
+    text-align: center; /* Center the text within the header */
+    margin-bottom: 20px; /* Add some space below the header */
+}
+
+
+.video-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.video-list li {
+    margin-bottom: 10px;
+    padding :  10px;
+}
+
+.video-list li a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.video-list li a:hover {
+    background-color: #ddd;
+}
+
+
+.contribute {
+    text-align: right; 
+    margin-top: 20px; 
+    cursor: pointer; 
+}
+
+.contribute a{
+    font-size : 18px;
+}
+ol li a{
+    font-size : 17px;
+}
+

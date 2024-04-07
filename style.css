@@ -1,0 +1,250 @@
+body{
+    /* background-color: #131316; */
+    color : #000000;
+    padding : 0 ;
+    margin : 0 ; 
+}
+main div h1::before,
+main div h1::after {
+    content: '"';
+}
+
+nav ol li a{
+    font-size : 23px;
+}
+main div h1::after {
+    content: '"';
+}
+h1{
+    font-size: 50px;
+}
+a {
+    font-size : 20px;
+}
+h3{
+    font-size : 30px;
+}
+h4{
+    font-size : 25px;
+}
+p{
+    font-size : 20px;
+}
+.card-content p {
+    font-size : 20px;
+}
+.card-content a{
+    font-size : 20px;
+}
+nav {
+    border-bottom: 1px solid black;
+}
+.crumbs{
+    display : flex;
+    justify-content: space-between;
+}
+.crumbs input[type="text"] {
+    margin-left: auto;
+    width: 350px; 
+    height: 20px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+}
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+.crumb {
+    display: inline-block;
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '||';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+.crumb a::before{
+    display: inline-block;
+    color: #000;
+    content: '||';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: .40;
+    z-index: -2;
+}
+
+.quotePage1{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 3rem;
+    line-height: 6rem;
+    quotes: initial;
+}
+h3{
+    display : inline-block;
+}
+section {
+    min-height : 100vh;
+}
+
+.card ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.card ul li{
+    display : inline-block;
+}
+.card ul li a{
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 3px 3px;
+}
+
+.card {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-content p{
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.card-content p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card-content p a:hover {
+    text-decoration: underline;
+}
+
+.card-footer {
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ccc;
+}
+
+.card-footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.card-footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.card-footer ul li:last-child {
+    margin-right: 0;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap : 40px;
+    padding : 50px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: .8;
+    overflow: hidden;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-content p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.card-footer {
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ccc;
+}
+
+.card-footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.card-footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.card-footer ul li:last-child {
+    margin-right: 0;
+}
+.hidden3{
+    height : 10rem;
+}
+.hidden3 ol li{
+    line-height: 4rem;
+}
+.hidden3 {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensures the div takes up all available height */
+}
+
+.hidden3 div {
+    flex: 1; /* Makes this div take up all remaining space vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+}
+
+.card main p {
+    font-size : 17px;
+}
+.card footer ul li a{
+    font-size : 17px;
+}
