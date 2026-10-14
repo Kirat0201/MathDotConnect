@@ -4,11 +4,11 @@ A sprint here is an independently reviewable outcome, not a promised calendar du
 
 ## Sprint 1: working discovery and personal notebook
 
-Status: implemented; final verification in progress.
+Status: complete. Implemented, verified locally and in GitHub CI, and pushed to main.
 
 Deliverables: modular catalog, search/filter/sort, responsive UI, details and deep links, Euler unit-circle explorer, favorites, local contributions, export/restore, storage recovery, security boundaries, tests, CI, and setup documentation.
 
-Exit: automated checks pass; desktop/mobile views are inspected; known limitations are recorded; a draft PR contains the reviewable changes. No merge or deployment is implied.
+Exit achieved: automated checks pass; desktop/mobile views were inspected; known limitations are recorded; PR #1 records the reviewable changes. Following the request to push directly, commit 555f1bc was pushed to main after GitHub CI passed. No deployment has been performed.
 
 ## Sprint 2: shared publishing
 
