@@ -1,151 +1,256 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MathDotConnect</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="app.js"></script>
-</head>
-<body>
-    <div class="page1">
-        <header>
-            <nav class="crumbs">
-                <ol>
-                  <li class="crumb"><a href="explore_equations.html" target="_blank">Explore equations available on our web</a></li>
-                  <li class="crumb"><a href="your_fav_equations.html" target="_blank">Your fav equations from our web</a></li>
-                  <li class="crumb"><a href="share_your_fav_equations.html" target="_blank">Share your fav equations</a></li>
-                </ol>
-                <input type="text" id="searchInput" placeholder="Search for relevant tags ...">
-              </nav>
-        </header>
-        <main>
-            <!-- background vid -->
-            <video autoplay muted loop id="myVideo">
-            <source src="tao.mp4" type="video/mp4">
-            </video>
-            <!--quote-->
-            <div class="quotePage1">
-                <h1>
-                    Connecting People Through <br>
-                    Their Favourite Equations
-                </h1>
-            </div>
-        </main>
-    </div>
-
-    <div class="page2">
-        <section class="hidden">
-            <h3>Issac Newton said : </h3>
-            <h4>I can calculate the motions of heavenly bodies, but not the madness of people<sub><i>[said it , after he lost his whole life fortune in the stock market]</i></sub>.</h4>
-            <br>
-            <div class="card-container">
-                <div class="card">
-                    <main class="card-content">
-                        <img src="billion dollar equation.png" alt="billion dollar equation" width="400" height="150">
-                        <p>hey , this is the equation which defines the motion of particles i.e. brownian motion and movement(somewhat prediction) of the stock market used by the mathematicians in HFT firms in the 1900s
-                            <br>
-                            <br>
-                            sources to explore this equation more :  
-                            <br>
-                            <a href="https://www.youtube.com/watch?v=A5w-dEgIU1M" target="_blank">Veritasium</a>
-                        </p>
-                    </main>
-                    <footer class="card-footer">
-                        <ul>
-                            <li><a href="#">react</a></li>
-                            <li><a href="#">share more resources</a></li>
-                            <li><a href="#">comment</a></li>
-                        </ul>
-                    </footer>
-                </div>
-                <div class="card">
-                    <main class="card-content">
-                        <img src="Screenshot 2024-04-07 at 3.31.39 AM.png" alt="Image 2" width="400" height="150">
-                        <p>This guy discussed fourier series in its whole!! 
-                            <br>
-                            added the visualization for the series <br>
-                            and discussed sine vs sqauare waves<br>
-                            included a fourier series challenge.
-                            <br>
-                            <br>
-                            here is his yt handle :  
-                            <br>
-                            <a href="https://www.youtube.com/watch?v=ds0cmAV-Yek">Smarter Everyday</a>
-                        </p>
-                    </main>
-                    <footer class="card-footer">
-                        <ul>
-                            <li><a href="#">react</a></li>
-                            <li><a href="#">share more resources</a></li>
-                            <li><a href="#">comment</a></li>
-                        </ul>
-                    </footer>
-                </div>
-                <div class="card">
-                    <main class="card-content">
-                        <img src="Screenshot 2024-04-07 at 3.08.16 AM.png" alt="Image 3" width="400" height="150">
-                        <p>This source shares what a fourier series is in its vector diagramatic form <br>
-                            and goes through the whole thought process how he got to represent the fourier series <br>
-                            and then keeps on increasing the order of the equation, using javascript . 
-                        <br>
-                        <br>
-                        here you can check it out : 
-                        <br>
-                        <a href="https://www.youtube.com/watch?v=Mm2eYfj0SgA&t=725s">coding train</a>
-                        </p>
-                    </main>
-                    <footer class="card-footer">
-                        <ul>
-                            <li><a href="#">react</a></li>
-                            <li><a href="#">share more resources</a></li>
-                            <li><a href="#">comment</a></li>
-                        </ul>
-                    </footer>
-                </div>
-                <div class="card">
-                    <main class="card-content">
-                        <img src="Screenshot 2024-04-07 at 3.15.14 AM.png" alt="Image 4" width="400" height="150">
-                        <p>hola , learnt the math behind these rotating vectors to draw these images , or if this equation had been used correctly , it could have prevented the nuclear-war head race in its tracks .
-                            <br>
-                            <br>
-                            here are the sources : 
-                            <br>
-                            <a href="https://www.youtube.com/watch?v=r6sGWTCMz2k&list=PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6&index=4">3Blue1Brown</a>
-                            <br>
-                            <a href="https://www.youtube.com/watch?v=nmgFG7PUHfo">Veritasium</a> 
-                            <br>
-                            tagged : the most important algorithm of all time. 
-                        </p>
-                    </main>
-                    <footer class="card-footer">
-                        <ul>
-                            <li><a href="#">react</a></li>
-                            <li><a href="#">share more resources</a></li>
-                            <li><a href="#">comment</a></li>
-                        </ul>
-                    </footer>
-                </div>
-            </div>
-            
-        </section>
-        <section class="hidden3">
-            <h3>Chect out our additional features : </h3>
-            <ol>
-                <li><a href="explore_equations.html" target="_blank">explore equations available on our web</a></li>
-                <li><a href="your_fav_equations.html" target="_blank">your fav equations from our web</a></li>
-                <li><a href="share_your_fav_equations.css" target="_blank">share your fav equations</a></li>
-            </ol>
-            <div>
-                <h4>And remember ,</h4>
-                <br>
-                <h2>“ Nature is written in mathematical language. ”</h2>
-                <br>
-                <h3>— Galileo Galilei</h3>
-            </div>
-        </section>
-    </div>
-
-
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Discover the equations that connect our world. Explore the stories, intuition, and ideas behind mathematics."
+    />
+    <meta name="theme-color" content="#f7f6f2" />
+    <title>MathDotConnect — Find your kind of beautiful.</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%237351d7'/%3E%3Ctext x='7' y='29' font-size='30' fill='white'%3E∑%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#discover">Skip to equations</a>
+    <header class="site-header wrap">
+      <a class="brand" href="#explore" aria-label="MathDotConnect home"
+        ><span class="brand-mark" aria-hidden="true">∑</span> Math<span
+          class="brand-dot"
+          >.</span
+        >Connect</a
+      >
+      <nav aria-label="Main navigation">
+        <a href="#explore" data-nav="explore">Discover</a>
+        <a href="#saved" data-nav="saved"
+          >My collection <span id="saved-count">0</span></a
+        >
+      </nav>
+      <button class="button button-small" id="contribute-open">
+        + Add an equation
+      </button>
+    </header>
+    <main>
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="tiny-dot"></span> A little curiosity goes a long way
+          </p>
+          <h1 id="hero-title">Find your kind<br />of <em>beautiful.</em></h1>
+          <p class="hero-description">
+            Some see symbols. We see stories.<br />Explore the equations that
+            explain our world,<br class="desktop-break" />
+            and find the ones that speak to you.
+          </p>
+          <a class="button" href="#discover"
+            >Follow your curiosity <span aria-hidden="true">↗</span></a
+          >
+          <p class="hero-note">
+            Made for curious minds. No math degree required.
+          </p>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <span class="art-label label-one">a beautiful connection</span>
+          <div class="equation-paper">
+            <span class="paper-kicker">FIVE CONSTANTS. ONE IDENTITY.</span
+            ><span class="hero-equation">e<sup>iπ</sup> + 1 = 0</span
+            ><span class="paper-footer">Leonhard Euler <span>1748</span></span>
+          </div>
+          <span class="floating-formula formula-one">∫ f(x) dx</span
+          ><span class="floating-formula formula-two">∞</span
+          ><span class="art-star star-one">✳</span
+          ><span class="art-star star-two">✦</span>
+          <span class="art-label label-two">everything is connected.</span>
+        </div>
+      </section>
+      <section
+        id="discover"
+        class="discover wrap"
+        aria-labelledby="section-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow" id="section-kicker">THE EXPLORER’S NOTEBOOK</p>
+            <h2 id="section-title">A world of ideas, in a few symbols.</h2>
+          </div>
+          <span class="catalog-note" id="catalog-count"
+            >8 starting points. Endless connections.</span
+          >
+        </div>
+        <div class="toolbar">
+          <label class="search-box"
+            ><span aria-hidden="true">⌕</span
+            ><span class="sr-only">Search equations</span
+            ><input
+              id="search"
+              type="search"
+              placeholder="Try “waves”, “probability”, or an equation…"
+              maxlength="200"
+          /></label>
+          <label class="sort-label"
+            >Sort by
+            <select id="sort">
+              <option value="curated">Curated order</option>
+              <option value="title">Name, A–Z</option>
+              <option value="quick">Quick reads</option>
+            </select></label
+          >
+        </div>
+        <div
+          class="topics"
+          id="topics"
+          role="group"
+          aria-label="Filter by topic"
+        ></div>
+        <p
+          class="result-count"
+          id="result-count"
+          role="status"
+          aria-live="polite"
+        ></p>
+        <div class="equation-grid" id="equation-grid"></div>
+        <div class="empty-state" id="empty-state" hidden>
+          <span aria-hidden="true">∅</span>
+          <h3 id="empty-title">No connections yet.</h3>
+          <p id="empty-copy">
+            Try another search or explore a different topic.
+          </p>
+          <button class="button" id="reset-filters">
+            Explore all equations
+          </button>
+        </div>
+        <aside class="contribution-banner">
+          <span class="banner-symbol" aria-hidden="true">＋</span>
+          <div>
+            <h3>What equation changed the way you see things?</h3>
+            <p>
+              Add its story to your notebook. Curiosity is better when it grows.
+            </p>
+          </div>
+          <button class="button button-outline" id="contribute-banner">
+            Add your equation ↗
+          </button>
+        </aside>
+      </section>
+    </main>
+    <footer class="wrap">
+      <a class="brand footer-brand" href="#explore"
+        >Math<span class="brand-dot">.</span>Connect</a
+      >
+      <p>Big ideas. Small symbols. A world of connections.</p>
+      <span>Built with curiosity.</span>
+      <p class="storage-note">
+        Your collection and contributions stay in this browser. Export a backup
+        to keep them safe. No account or public publishing yet.
+      </p>
+      <button class="text-button" id="export-data">Export my notebook ↓</button
+      ><button class="text-button" id="import-open">Restore a notebook ↑</button
+      ><input
+        class="sr-only"
+        type="file"
+        id="import-data"
+        accept="application/json,.json"
+        tabindex="-1"
+        aria-label="Choose a notebook backup"
+      />
+    </footer>
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+    <dialog id="detail-dialog" aria-labelledby="detail-title">
+      <button
+        class="dialog-close"
+        aria-label="Close equation details"
+        id="detail-close"
+      >
+        ×
+      </button>
+      <div id="detail-content"></div>
+    </dialog>
+    <dialog id="contribute-dialog" aria-labelledby="contribute-title">
+      <button
+        class="dialog-close"
+        aria-label="Close contribution form"
+        id="contribute-close"
+      >
+        ×
+      </button>
+      <p class="eyebrow">A PAGE IN YOUR NOTEBOOK</p>
+      <h2 id="contribute-title">Share a little wonder.</h2>
+      <p class="dialog-intro">
+        Add an equation and the story behind it. This saves privately in this
+        browser; it won’t publish to other people.
+      </p>
+      <form id="contribute-form" novalidate>
+        <label for="title">Equation name</label
+        ><input
+          id="title"
+          name="title"
+          required
+          minlength="3"
+          maxlength="90"
+          placeholder="e.g. The golden ratio"
+          aria-describedby="error-title"
+        />
+        <p class="field-error" id="error-title"></p>
+        <label for="formula"
+          >The equation <span>Plain text or Unicode symbols</span></label
+        ><input
+          id="formula"
+          name="formula"
+          required
+          maxlength="220"
+          placeholder="φ = (1 + √5) / 2"
+          aria-describedby="error-formula"
+        />
+        <p class="field-error" id="error-formula"></p>
+        <label for="summary">The short story</label
+        ><input
+          id="summary"
+          name="summary"
+          required
+          minlength="15"
+          maxlength="240"
+          placeholder="What makes this equation worth exploring?"
+          aria-describedby="error-summary"
+        />
+        <p class="field-error" id="error-summary"></p>
+        <label for="explanation">Help us understand it</label
+        ><textarea
+          id="explanation"
+          name="explanation"
+          rows="4"
+          required
+          minlength="30"
+          maxlength="3000"
+          placeholder="Explain the idea, its symbols, and when it applies."
+          aria-describedby="error-explanation"
+        ></textarea>
+        <p class="field-error" id="error-explanation"></p>
+        <label for="sourceUrl">A resource to explore</label
+        ><input
+          id="sourceUrl"
+          name="sourceUrl"
+          type="url"
+          required
+          placeholder="https://…"
+          aria-describedby="error-sourceUrl"
+        />
+        <p class="field-error" id="error-sourceUrl"></p>
+        <p class="form-message" id="form-message" role="status"></p>
+        <button class="button" type="submit">Add to my notebook ↗</button>
+      </form>
+    </dialog>
+    <noscript
+      ><p class="wrap">
+        Enable JavaScript to explore the equation catalog, search, and save
+        favorites.
+      </p></noscript
+    >
+  </body>
 </html>

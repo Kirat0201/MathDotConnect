@@ -1,0 +1,24 @@
+{
+  "name": "mathdotconnect",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Discover the equations that connect our world.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/server.mjs",
+    "start": "node scripts/server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check app.js && node --check src/catalog.js && node --check src/domain.js && node --check scripts/server.mjs",
+    "test:e2e": "playwright test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.64.1",
+    "prettier": "^3.9.10"
+  }
+}
