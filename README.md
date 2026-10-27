@@ -70,6 +70,6 @@ are not part of the static deployment.
 
 ## Development plan
 
-See [product scope](docs/product.md), [architecture decisions](docs/architecture.md), and [sprints](docs/sprints.md). Shared publishing, authentication, moderation, a database, and remote deployment are future deliverables. This release does not present local contributions as a public community.
+See [product scope](docs/product.md), [architecture decisions](docs/architecture.md), [sprints](docs/sprints.md), and the [community roadmap](docs/community-roadmap.md). The next milestone adds guest browsing, managed sign-in, profiles, moderated publishing, and a paginated discovery feed. Those community features are planned; local contributions are not public today.
 
 The original images and video remain in git for provenance. The application no longer loads them, keeping the initial page independent of an 18 MB background video and missing screenshots. No license has been assumed for the original media; review ownership before reusing it.
