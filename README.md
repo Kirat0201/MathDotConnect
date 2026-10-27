@@ -61,8 +61,15 @@ docker run --rm --name mathdotconnect -p 127.0.0.1:4173:4173 mathdotconnect
 
 The container runs as a non-root user. Its health check calls `/healthz`. Container instructions must be tested on a running Docker engine before deployment. See [cloud labs](docs/cloud-labs.md).
 
+## Static AWS deployment
+
+`npm run build:static` packages only the eight public browser files into `dist/`.
+The [AWS CLI lab](docs/aws-static-deploy.md) deploys that directory through a
+private S3 bucket and CloudFront. The Node server and its `/healthz` endpoint
+are not part of the static deployment.
+
 ## Development plan
 
-See [product scope](docs/product.md), [architecture decisions](docs/architecture.md), and [sprints](docs/sprints.md). Shared publishing, authentication, moderation, a database, and remote deployment are future deliverables. This release does not present local contributions as a public community.
+See [product scope](docs/product.md), [architecture decisions](docs/architecture.md), [sprints](docs/sprints.md), and the [community roadmap](docs/community-roadmap.md). The next milestone adds guest browsing, managed sign-in, profiles, moderated publishing, and a paginated discovery feed. Those community features are planned; local contributions are not public today.
 
 The original images and video remain in git for provenance. The application no longer loads them, keeping the initial page independent of an 18 MB background video and missing screenshots. No license has been assumed for the original media; review ownership before reusing it.

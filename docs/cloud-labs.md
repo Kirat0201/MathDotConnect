@@ -18,6 +18,8 @@ Evidence: successful health check, explanation of each Dockerfile instruction, a
 
 Choose a provider and verify its current costs before creating resources. Deploy the reviewed commit. Configure a staging URL and TLS. Keep any platform credentials in the platform secret manager. Explain DNS resolution, TLS termination, and how traffic reaches the container.
 
+For the current browser-only release, follow the [AWS static site command lab](aws-static-deploy.md). It serves files through S3 and CloudFront; the container exercise above remains a separate runtime lab.
+
 Evidence: staging URL, commit/image identifier, deployment steps, resource inventory, and budget alert. Do not create billable infrastructure without an agreed budget.
 
 ## 4. Deliver changes and recover

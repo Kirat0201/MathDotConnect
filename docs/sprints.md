@@ -12,7 +12,7 @@ Exit achieved: automated checks pass; desktop/mobile views were inspected; known
 
 ## Sprint 2: shared publishing
 
-Status: planned.
+Status: planned. Follow the [community roadmap](community-roadmap.md) for the product scope and next-session handoff.
 
 1. Decide audience, hosting, content license, and moderation rules.
 2. Define API contracts and database schema with migrations.
@@ -21,7 +21,7 @@ Status: planned.
 5. Add integration tests covering unauthorized writes, invalid resources, duplicate submissions, pagination, and deletion.
 6. Perform and document a real backup/restore drill.
 
-Exit: two separate browsers can see an approved publication; unauthorized users cannot edit it; a failed migration can be recovered. Depends on product choices and a chosen database/environment.
+Exit: a guest can read an approved publication, its creator profile names the author, two separate browsers see it, unauthorized users cannot edit or approve it, and a failed migration can be recovered. Depends on product choices and a chosen database/environment.
 
 ## Sprint 3: operate and validate
 
